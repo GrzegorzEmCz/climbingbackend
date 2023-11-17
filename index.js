@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/", authRoute);
 app.use("/api/users", userRoute);
-app.use("/api/road", roadRoute);
+app.use("/api/roads", roadRoute);
 app.use("/api/bookmarks", bookmarkRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
